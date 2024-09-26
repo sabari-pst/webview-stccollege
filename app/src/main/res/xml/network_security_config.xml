@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <debug-overrides>
+        <trust-anchors>
+            <certificates overridePins="true" src="user"/>
+        </trust-anchors>
+    </debug-overrides>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">admin.mycatholicchurch.com
+        </domain>
+        <domain includeSubdomains="true">https://nehrubooks.live/
+        </domain>
+        <domain includeSubdomains="true">http://nehrubooks.live/
+        </domain>
+
+        <domain includeSubdomains="true">http://kalvisalai.in/
+        </domain>
+        <domain includeSubdomains="true">https://portal.sarahtuckercollege.edu.in/mob/
+        </domain>
+        <domain includeSubdomains="true">http://racollege.kalvisalai.in/manage/#/mob
+        </domain>
+        <domain includeSubdomains="true">http://racollege.kalvisalai.in</domain>
+        <domain includeSubdomains="true">https://racollege.kalvisalai.in</domain>
+
+        <domain includeSubdomains="true">http://secure.ccavenue.com</domain>
+        <domain includeSubdomains="true">https://secure.ccavenue.com</domain>
+
+
+    </domain-config>
+</network-security-config>
